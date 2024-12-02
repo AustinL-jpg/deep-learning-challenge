@@ -1,0 +1,20 @@
+Data Preprocessing
+
+What variable(s) are the target(s) for your model?
+The target variable was the 'IS_SUCCESSFUL' column from application_df dataframe.
+What variable(s) are the features for your model?
+The feature variables were every other column from application_df dataframe. 
+We defined this by droping the 'IS_SUCCESSFUL' column from the original dataframe.
+What variable(s) should be removed from the input data because they are neither targets nor features?
+We dropped both 'EIN' and 'NAME' columns, because they were not the targets for the dataframe.
+
+Compiling, Training, and Evaluating the Model
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+The first attempt I used 8 hidden_nodes_layer1 and 5 hidden_nodes_layer2, the second I used 10 hidden_nodes_layer1 and 10 hidden_nodes_layer2, and for the third I used 20 hidden_nodes_layer1 and 20 hidden_nodes_layer2.
+
+Were you able to achieve the target model performance?
+I was able to reach a 72% which was not the target.
+
+What steps did you take in your attempts to increase model performance?
+I added more layers, removed more columns, and added additional hidden nodes to try and increase the performance.
